@@ -57,7 +57,7 @@ export default function Index() {
 
               <FlatList 
                 data={trendingMovies}
-                renderItem={({item, index}) => ()}
+                renderItem={({item, index}) => <MovieCard id={0} adult={false} backdrop_path={""} genre_ids={[]} original_language={""} original_title={""} overview={""} popularity={0} poster_path={""} release_date={""} video={false} vote_average={0} vote_count={0} {...item}/>}
                 className="mb-4 mt-3"
               />
             </View>
